@@ -1,0 +1,50 @@
+.header{
+  background-image: url(../../../assets/images/bg.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+  margin: 0;
+  padding:0;
+  width:100%;
+  height:100%;
+  overflow: hidden;
+}
+.home{
+  margin-top:60px;
+  height: 100%;
+}
+.desc{
+  margin-top:40px;
+  margin-right:100px
+}
+.desc >h1{
+  font-weight: 900;
+  font-family: 'Signika Negative', sans-serif;
+  font-size:3.25em;
+}
+span.detail{color:#e67c35;
+  font-size:1.25em;
+}
+.content{
+  padding:16px;
+}
+.cover{
+  padding-left:40px;
+}
+
+@media only screen and (max-width: 600px) {
+.about{
+  margin-top:40px;
+}
+}
+.team{
+align-content: center;
+align-self: center;
+width:100%;
+margin-top:60px;
+}
+.footer{
+  background-image: url(../../../assets/images/wave.svg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+
+}

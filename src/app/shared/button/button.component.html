@@ -1,0 +1,5 @@
+<div class="dialog"><div class="btn btn-warning" *ngIf="!user" href="#" (click)="signInWithGoogle()">{{label}}<img src="{{img}}"/></div>
+</div>
+<div class="dialog" *ngIf="user"><div class="btn btn-warning"  href="#" (click)="signOut()">{{label}}<img src="{{img}}" alt="{{alt}}"/></div>
+</div>
+
